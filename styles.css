@@ -1,0 +1,239 @@
+/* Global Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa; /* Light gray background */
+    color: #343a40; /* Dark text color */
+}
+
+a {
+    color: #007bff; /* Blue link color */
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #0056b3; /* Darker blue on hover */
+}
+
+/* Navbar */
+.navbar {
+    background-color: #343a40; /* Dark background for navbar */
+    border-bottom: 4px solid #ffc107; /* Orange border bottom */
+}
+
+.navbar-brand {
+    font-size: 1.8rem; /* Larger font size for brand */
+    font-weight: bold;
+}
+
+.navbar-toggler {
+    border: none; /* Remove border from toggler */
+}
+
+.nav-link {
+    color: #fff !important; /* White text for links */
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #ffc107 !important; /* Orange color on hover */
+}
+
+/* Home Section */
+#home {
+    background-color: #ffc107; /* Orange background */
+    color: #343a40; /* Dark text color */
+    padding: 100px 0; /* Increased padding */
+    text-align: center;
+}
+
+#home h1 {
+    font-size: 3.5rem; /* Larger font size for heading */
+    font-weight: bold;
+    margin-bottom: 20px; /* Increased margin bottom */
+}
+
+#home p {
+    font-size: 1.5rem; /* Larger font size for paragraph */
+}
+
+#home .btn {
+    background-color: #343a40; /* Dark button background */
+    border-color: #343a40; /* Dark border color */
+    color: #fff; /* White text color */
+    font-weight: bold;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+#home .btn:hover {
+    background-color: #292f36; /* Darker background on hover */
+    border-color: #292f36; /* Darker border color on hover */
+}
+
+/* Services Section */
+#services {
+    background-color: #007bff; /* Blue background */
+    color: #fff; /* White text color */
+    padding: 100px 0; /* Increased padding */
+}
+
+#services h2 {
+    font-size: 3rem; /* Larger font size for heading */
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 40px; /* Increased margin bottom */
+}
+
+.card {
+    background-color: #fff; /* White background for cards */
+    color: #343a40; /* Dark text color */
+    border: none; /* Remove border */
+    transition: transform 0.3s ease;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15); /* Subtle shadow */
+}
+
+.card:hover {
+    transform: translateY(-5px); /* Lift card on hover */
+}
+
+.card-title {
+    font-size: 2rem; /* Larger font size for card titles */
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 1.2rem; /* Larger font size for card text */
+}
+
+/* About Us Section */
+#about {
+    background-color: #28a745; /* Green background */
+    color: #fff; /* White text color */
+    padding: 100px 0; /* Increased padding */
+}
+
+#about h2 {
+    font-size: 3rem; /* Larger font size for heading */
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 40px; /* Increased margin bottom */
+}
+
+#about p {
+    font-size: 1.5rem; /* Larger font size for paragraph */
+    text-align: center;
+}
+
+/* Our Work Section */
+#work {
+    background-color: #6c757d; /* Dark gray background */
+    color: #fff; /* White text color */
+    padding: 100px 0; /* Increased padding */
+}
+
+#work h2 {
+    font-size: 3rem; /* Larger font size for heading */
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 40px; /* Increased margin bottom */
+}
+
+.card-img-top {
+    border-radius: 10px; /* Rounded corners for images */
+    transition: transform 0.3s ease;
+}
+
+.card-img-top:hover {
+    transform: scale(1.1); /* Scale up image on hover */
+}
+
+.card-title {
+    font-size: 2rem; /* Larger font size for card titles */
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 1.2rem; /* Larger font size for card text */
+}
+
+/* Contact Section */
+#contact {
+    background-color: #343a40; /* Dark background */
+    color: #fff; /* White text color */
+    padding: 100px 0; /* Increased padding */
+}
+
+#contact h2 {
+    font-size: 3rem; /* Larger font size for heading */
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 40px; /* Increased margin bottom */
+}
+
+.form-control {
+    background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent background */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    color: #fff; /* White text color */
+    margin-bottom: 15px; /* Increased margin bottom */
+    box-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.form-control:focus {
+    background-color: rgba(255, 255, 255, 0.2); /* Lighter background on focus */
+}
+
+.form-label {
+    font-size: 1.2rem; /* Larger font size for labels */
+    font-weight: bold;
+}
+
+.btn-primary {
+    background-color: #ffc107; /* Orange button background */
+    border-color: #ffc107; /* Orange border color */
+    color: #343a40; /* Dark text color */
+    font-weight: bold;
+    transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #ffca2b; /* Lighter orange on hover */
+    border-color: #ffca2b; /* Lighter border color on hover */
+    color: #343a40; /* Dark text color */
+}
+
+/* Footer */
+footer {
+    background-color: #343a40; /* Dark background */
+    color: #fff; /* White text color */
+    padding: 20px 0; /* Increased padding */
+    text-align: center;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .navbar-brand {
+        font-size: 1.5rem; /* Adjusted font size for smaller screens */
+    }
+
+    #home h1 {
+        font-size: 2.5rem; /* Adjusted font size for smaller screens */
+    }
+
+    #home p {
+        font-size: 1.3rem; /* Adjusted font size for smaller screens */
+    }
+
+    .card-title {
+        font-size: 1.8rem; /* Adjusted font size for smaller screens */
+    }
+
+    .card-text {
+        font-size: 1rem; /* Adjusted font size for smaller screens */
+    }
+
+    .form-label {
+        font-size: 1rem; /* Adjusted font size for smaller screens */
+    }
+}
